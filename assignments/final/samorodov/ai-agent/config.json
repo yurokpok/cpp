@@ -1,0 +1,13 @@
+{
+  "inference_source": "remote",
+  
+  "host": "ai-api.hurated.com",
+  "port": "443",
+  "api_key": "ваш ключ",
+  
+  "local_model": {
+    "host": "127.0.0.1",
+    "port": 8080,
+    "model_path": "/home/yurokpok/prak/llama.cpp/models/qwen2.5-0.5b-instruct-q4_k_m.gguf"
+  }
+}

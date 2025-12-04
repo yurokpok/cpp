@@ -1,0 +1,11 @@
+# Однострочный Python код
+./ai_agent code "def test(): return 1" python
+
+# Многострочный C++ код
+./ai_agent code $'#include <iostream>\nint main() { std::cout << "Hello"; }' cpp
+
+
+./ai_agent analyze ../examples/bad_cpp.cpp
+
+./ai_agent analyze ../examples/bad_python.py python
+
